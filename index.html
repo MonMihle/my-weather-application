@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/challenge.css" />
+  </head>
+
+  <body>
+    <body class="border p-5 mt-3"></body>
+
+    <div class="container">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          placeholder="Type a city ..."
+          autocomplete="off"
+          autofocus="on"
+          id="city-input"
+          id="search-text-input"
+        />
+        <input type="submit" value="search" />
+      </form>
+
+      <button class="col-3" id="current-location-btn">Current Location</button>
+    </div>
+    <br />
+    <h1 id="city">Sydney NSW, Australia</h1>
+    <h2>Wednesday 22:00</h2>
+    <h6 id="description">Partly Cloudy</h6>
+
+    <div class="cont"></div>
+    <div class="row">
+      <div class="col-6 col-lg-2 mb-3">
+        <h3>
+          &#x26c5; <strong><span id="temperature">66</span></strong>
+          <sup id="deg-farenheight">°F</sup> <sup>|</sup>
+          <sup id="deg-celcius">°C</sup>
+        </h3>
+      </div>
+
+      <div class="col-6 col-lg-2 mb-3">
+        <h4>Precipitation: 0%</h4>
+        <h5>Humidity: <span id="humidity"></span></h5>
+        <h6>Wind:<span id="wind"></span> km/h</h6>
+      </div>
+    </div>
+
+    <script src="src/task.js"></script>
+  </body>
+</html>

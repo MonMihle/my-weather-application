@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  align-items: left;
+}
+
+.highlighted {
+  color: blue;
+}
+#deg-farenheight:hover,
+#deg-celcius:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
+h1 {
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  color: grey;
+}
+
+h3 {
+  color: greyblack;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1;
+}
+h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 6;
+  color: grey;
+}
+h5 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 6;
+  color: grey;
+}
+h6 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 6;
+  color: grey;
+}
+button {
+  color: white;
+  display: block;
+  border: none;
+  padding: -20px;
+
+  font-size: 15px;
+  background: rgba(112, 112, 252, 0.959);
+
+  box-shadow: 5 5 10px #51e88b;
+  transition: all 200ms ease-in-out;
+}
